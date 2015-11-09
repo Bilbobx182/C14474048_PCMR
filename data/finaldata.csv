@@ -1,3 +1,4 @@
+CPUB,CPU,CPUOC,GPUOC,RAMOC,GPUB,GPUprice,RAM,DDR,PSU,Monitors,Refresh,Res
 Intel,Intel Core i7,0,0,0,Intel,200,8,3,750,1,60,1080
 Intel,Intel Core i7,0,0,0,Nvidia,200,8,3,650,2,60,1080
 Intel,Intel Core i5,0,0,0,Nvidia,300,8,3,750,1,60,1080
