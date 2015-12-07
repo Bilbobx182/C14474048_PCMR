@@ -244,7 +244,7 @@ void menu()
   fill(#ffdf00);
   text(" AMD VS NVIDIA", 0, (y[0]/2));
   text("RAM", 0, y[0]+(y[0]/2));
-  text("AMD vs NVIDIA Market share", 0, y[1]+(y[0]/2));
+  text("AMD vs INTEL CPU ownership", 0, y[1]+(y[0]/2));
   text("Resolution graph", 0, y[2]+(y[0]/2));
   text("STATS", 0, y[3]+(y[0]/2));
   textSize(26);
@@ -272,7 +272,7 @@ void menu()
     fill(#ffdf00);
     rect(0, y[1], width, y[0]);
     fill(0);
-    text("AMD vs NVIDIA Market share PRESS 4", 0, y[1]+(y[0]/2));
+    text("Intel Vs AMD CPU PRESS 4", 0, y[1]+(y[0]/2));
   }
   if (mouseY>300 && mouseY<400)
   {
