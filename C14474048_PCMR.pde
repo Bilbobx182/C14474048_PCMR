@@ -212,13 +212,6 @@ void res()
   text("% Of users on 720p:"+c1, (r720-(width/4)) +10, r720);
 }
 
-void mousePressed()
-{
-  if (mouseY<100)
-  { 
-    Stemleaf();
-  }
-}
 
 //----------------------------------------------------------------------------------OPTION 1 MENU---------------------------------------------------------------------
 void menu()
@@ -458,13 +451,13 @@ void drawcirclegraph()
 
   //doing the lines and numbers
 
-  stroke(#89CFF0);
+  stroke(208, 21, 21);
   line(width/4, height/2, width/2, height/2);
   fill(#FFDF00);
   textAlign(LEFT, BOTTOM);
   text("AMD users: "+(int)AMD, width/4, (height/2));
 
-  stroke(#32b600);
+  stroke(#89CFF0);
   line(width/4, height/2-(border*2), width/2, height/2-(border*2));
   fill(#FFDF00);
   textAlign(LEFT, BOTTOM);
@@ -635,52 +628,4 @@ void Stemleaf()
 
 //OTHER CODE THAT I may want to use
 //-------------------------------------------------------------------------------------OPTION NOT IN THE MENU------------------------------------------------------------
-void IVA()
-{
-
-  line(width/2, 0, width/2, height);
-  int icount, acount;
-  float ichange, achange;
-  int min, max;
-
-  min=0;
-  max=width/2;
-  ichange=achange=icount=acount=0;
-  for (int i=0; i< LISTSIZE; i++)
-  {
-    if (dataset[i].CPUB.equalsIgnoreCase("Intel")) 
-    {
-      icount++;
-    } else
-    {
-      acount++;
-    }
-  }
-  ichange=map(icount, 0, LISTSIZE, min, max);
-  achange=map(acount, 0, LISTSIZE, min, max);
-  // image(intel,0, (height-64) -64);
-  //image(amd,width-128,(height-64)-64);
-  // println(ichange, achange);
-
-  for (int i=0; i<ichange; i++)
-  {
-    fill(0, 150, 255);
-    noStroke();
-    ellipse(random(300), random(450), 10, 10);
-  }
-  float random;
-  for (int i=0; i<achange; i++)
-  {
-    random=random(600);
-    if ( random < width/2)
-    {
-      i--;
-    } else
-    {
-      fill(30, 200, 40);
-      noStroke();
-      ellipse(random, random(450), 10, 10);
-    }
-  }
-}
 
