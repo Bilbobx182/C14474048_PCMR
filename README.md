@@ -1,4 +1,15 @@
 This assignment is based off a dataset form reddit /r/pcmasterrace. A study of rigs on there from the early half of 2015.
+There are about 5 disntictive graphs.
+-> Stem and leaf
+-> RAM
+-> Half Circle
+-> Resolution
+
+Finally there is a section for general statistics for data that I didn't fully get to implement.
+The main objective was to contrast different companies and how the conusmer goes about buying the main companies products.
+We can see evident contrasts between AMD vs NVIDIA and AMD vs Intel. 
+From this all it's obvious that AMD lag behind in everything....Sad news for the consumer in the end....
+
 For this reason you can see differences in the data (stem and leaf at that point in time the FURY X GPU wasn't out affecting the 500/700+Gpu price range).
 
 Menu
