@@ -1,4 +1,6 @@
-This assignment is based off a dataset form reddit /r/pcmasterrace. A study of rigs on there from the early half of 2015.
+
+This assignment is based off a dataset from reddit /r/pcmasterrace. A study of rigs on there from the early half of 2015.The data on PCMR was given to me by /U/ Das5heep on reddit.
+
 There are about 5 disntictive graphs.
 -> Stem and leaf
 -> RAM
